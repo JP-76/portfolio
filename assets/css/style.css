@@ -94,7 +94,6 @@ body {
     padding: 10px;
     top: 0;
     width: 100%;
-    z-index: 1;
     text-align: center;
 }
 
@@ -202,4 +201,121 @@ body {
     padding: 10px;
     width: 100%;
     text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-color: #2b0057;
+        color: #e9e7e9;
+        top: 0;
+        width: inherit;
+        text-align: center;
+    }
+
+    .main {
+        min-height: 64vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+        background-color: #0f0f0f;
+    }
+
+    .aboutMe,
+    .projects,
+    .jobs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0b0b;
+    margin: 30px;
+    width: 250px;
+    border: 2px solid #1b1b1b;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 5px #080808;
+    }
+
+    .profilePic a img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        border: 2px solid #1b1b1b;
+        background-color: #0f0f0f;
+    }
+    
+    .profilePic a img:hover {
+        box-shadow: 0px 0px 20px 2px #2b0057;
+        border: 2px solid #2b0057;
+    }
+    
+    .myInfo {
+        display: flex;
+        padding-left: 0;
+        margin: 10px;
+        color: #cbd9e7;
+        font-size: 18px;
+        font-weight: 500;
+        width: 200px;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        background-color: #1b1b1b;
+        color: #cbd9e7;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 15px;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: 15px;
+        width: 200px;
+        min-height: 200px;
+        border: 2px solid transparent;
+    }
+    
+    .project:hover {
+        background-color: #2f2f2f;
+        box-shadow: 0px 0px 20px 2px #2b0057;
+        border: 2px solid #2b0057;
+    }
+    
+    .projectImg {
+        width: 100px;
+    }
+    
+    .projectDescription {
+        padding: 1px;
+    }
+    
+    .divider {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        width: 250px;
+        padding-left: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        border-bottom: 2px solid #1b1b1b;
+    }
+
+    .footer {
+        background-color: #2b0057;
+        width: inherit;
+        text-align: center;
+    }
 }
