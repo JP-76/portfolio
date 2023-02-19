@@ -203,7 +203,7 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .layout {
         display: flex;
         flex-direction: column;
