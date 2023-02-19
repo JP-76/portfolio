@@ -233,17 +233,17 @@ body {
     .aboutMe,
     .projects,
     .jobs {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #0b0b0b;
-    margin: 30px;
-    width: 250px;
-    border: 2px solid #1b1b1b;
-    border-radius: 25px;
-    box-shadow: 0px 0px 20px 5px #080808;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #0b0b0b;
+        margin: 30px;
+        width: 250px;
+        border: 2px solid #1b1b1b;
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px 5px #080808;
     }
 
     .profilePic a img {
@@ -253,12 +253,12 @@ body {
         border: 2px solid #1b1b1b;
         background-color: #0f0f0f;
     }
-    
+
     .profilePic a img:hover {
         box-shadow: 0px 0px 20px 2px #2b0057;
         border: 2px solid #2b0057;
     }
-    
+
     .myInfo {
         display: flex;
         padding-left: 0;
@@ -286,21 +286,21 @@ body {
         min-height: 200px;
         border: 2px solid transparent;
     }
-    
+
     .project:hover {
         background-color: #2f2f2f;
         box-shadow: 0px 0px 20px 2px #2b0057;
         border: 2px solid #2b0057;
     }
-    
+
     .projectImg {
         width: 100px;
     }
-    
+
     .projectDescription {
         padding: 1px;
     }
-    
+
     .divider {
         display: flex;
         flex-direction: row;
