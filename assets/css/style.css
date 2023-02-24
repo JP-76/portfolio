@@ -84,7 +84,7 @@ body {
 }
 
 .animated {
-    transition: ease 400ms;
+    transition: cubic-bezier(.46,-0.7,.45,2) 400ms;
 }
 
 .animated:hover {
