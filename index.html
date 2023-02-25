@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | João Pedro Spinassé Viana</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link id="style" rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/main.js" defer></script>
 </head>
 
 <body>
@@ -14,12 +15,17 @@
         <h1>Portfólio | João Pedro Spinassé Viana</h1>
     </header>
     <div class="main">
+
+        <button id="themeSwitch" class="animated" onclick="theme_switch()">
+            <img src="assets/img/sun.svg" alt="Theme icon" id="themeIcon" draggable="false">
+        </button>
+
         <div class="separator">
             <h2>Sobre Mim</h2>
         </div>
         <div class="container wrap shadow">
             <div class="profilePic">
-                <img src="assets/img/spinasse-avatar-2.png" alt="Avatar" class="avatar" draggable="false">
+                <img src="assets/img/spinasse-avatar.png" alt="Avatar" class="avatar" draggable="false">
                 <a href="https://github.com/JP-76" target="_blank">
                     <img src="https://cdn.discordapp.com/attachments/596772341594193933/1077992169295597699/images.png"
                         alt="Github Logo" class="githubLogo animated" draggable="false">
