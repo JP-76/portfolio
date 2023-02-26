@@ -1,16 +1,10 @@
 // Get the root element
 var r = document.querySelector(":root");
 
-// Create a function for getting a variable value
-function myFunction_get() {
-    // Get the styles (properties and values) for the root
-    var rs = getComputedStyle(r);
-    // Alert the value of the --blue variable
-    alert("The value of --theme is: " + rs.getPropertyValue("--theme"));
-}
-
 // Create a function for setting a variable value
 function theme_switch() {
+
+    // change to dark theme
     if (r.style.getPropertyValue("--theme") == "light") {
         r.style.setProperty("--theme", "dark");
         r.style.setProperty("--primary-accent", "#2b0057");
@@ -27,9 +21,10 @@ function theme_switch() {
         r.style.setProperty("--cube-left", "#1a1a1a");
         r.style.setProperty("--cube-right", "#0d0d0d");
         r.style.setProperty("--invert-svg-filter", "invert(1)");
-
-        //mudar o icone do tema
+        //change theme icon
         document.getElementById("themeIcon").src = "assets/img/sun.svg";
+
+    // change to light theme
     } else {
         r.style.setProperty("--theme", "light");
         r.style.setProperty("--primary-accent", "#006bb3");
@@ -46,8 +41,7 @@ function theme_switch() {
         r.style.setProperty("--cube-left", "#1aa3ff");
         r.style.setProperty("--cube-right", "#0099ff");
         r.style.setProperty("--invert-svg-filter", "invert(0)");
-
-        //mudar o icone do tema
+        //change theme icon
         document.getElementById("themeIcon").src = "assets/img/moon.svg";
     }
 }
