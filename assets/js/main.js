@@ -1,5 +1,5 @@
 // Get the root element
-var r = document.querySelector(":root");
+const r = document.querySelector(":root");
 
 // Create a function for setting a variable value
 function theme_switch() {
