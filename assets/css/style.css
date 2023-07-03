@@ -282,6 +282,10 @@ footer {
         font-weight: 700;
     }
 
+    header {
+        justify-content: flex-start;
+    }
+
     h1 {
         font-size: 1.2em;
     }
@@ -299,5 +303,10 @@ footer {
     .project {
         max-width: 20em;
         margin: 0.5em;
+    }
+
+    .description, .projectDesc {
+        width: 90%;
+        text-align: center;
     }
 }
