@@ -7,9 +7,9 @@ function theme_switch() {
     // change to dark theme
     if (r.style.getPropertyValue("--theme") == "light") {
         r.style.setProperty("--theme", "dark");
-        r.style.setProperty("--primary-accent", "#2b0057");
-        r.style.setProperty("--secondary-accent", "#41087b");
-        r.style.setProperty("--tertiary-accent", "#5a0da3");
+        r.style.setProperty("--primary-accent", "#002357");
+        r.style.setProperty("--secondary-accent", "#083e7b");
+        r.style.setProperty("--tertiary-accent", "#0d42a3");
         r.style.setProperty("--primary-text", "#e9e7e9");
         r.style.setProperty("--secondary-text", "#cbd9e7");
         r.style.setProperty("--primary-background", "#0f0f0f");

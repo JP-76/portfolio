@@ -2,9 +2,9 @@
 
 
 :root {
-    --primary-accent: #2b0057;
-    --secondary-accent: #41087b;
-    --tertiary-accent: #5a0da3;
+    --primary-accent: #002357;
+    --secondary-accent: #083e7b;
+    --tertiary-accent: #0d42a3;
     --primary-text: #e9e7e9;
     --secondary-text: #cbd9e7;
     --primary-background: #0f0f0f;
@@ -146,6 +146,14 @@ h2 {
     font-size: 1.2em;
     font-weight: 500;
     margin: 0.5em 1em;
+}
+
+a {
+    color: var(--secondary-text);
+}
+
+a:hover {
+    color: var(--primary-text);
 }
 
 .main {
